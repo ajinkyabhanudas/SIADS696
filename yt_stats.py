@@ -20,7 +20,7 @@ class YTstats:
         print('get channel statistics...')
         url = f'https://www.googleapis.com/youtube/v3/channels?part=statistics&id={self.channel_id}&key={self.api_key}'
         pbar = tqdm(total=1)
-        
+
         json_url = requests.get(url)
         data = json.loads(json_url.text)
         try:
@@ -39,7 +39,7 @@ class YTstats:
         print('get video data...')
         channel_videos, channel_playlists = self._get_channel_content(limit=50)
 
-        parts=["snippet", "statistics","contentDetails", "topicDetails"]
+        parts = ["snippet", "statistics", "contentDetails", "topicDetails"]
         for video_id in tqdm(channel_videos):
             for part in parts:
                 data = self._get_single_video_data(video_id, part)
@@ -77,7 +77,7 @@ class YTstats:
 
         vid, pl, npt = self._get_channel_content_per_page(url)
         idx = 0
-        while(check_all_pages and npt is not None and idx < 10):
+        while (check_all_pages and npt is not None and idx < 10):
             nexturl = url + "&pageToken=" + npt
             next_vid, next_pl, npt = self._get_channel_content_per_page(nexturl)
             vid.update(next_vid)
@@ -118,19 +118,18 @@ class YTstats:
 
         return channel_videos, channel_playlists, nextPageToken
 
-    def dump(self):
+    def dump(self, cat):
         """Dumps channel statistics and video data in a single json file"""
         if self.channel_statistics is None or self.video_data is None:
             print('data is missing!\nCall get_channel_statistics() and get_channel_video_data() first!')
             return
-
         fused_data = {self.channel_id: {"channel_statistics": self.channel_statistics,
-                              "video_data": self.video_data}}
+                                        "video_data": self.video_data}}
 
         channel_title = self.video_data.popitem()[1].get('channelTitle', self.channel_id)
         channel_title = channel_title.replace(" ", "_").lower()
         filename = channel_title + '.json'
-        with open(filename, 'w') as f:
+        with open("./"+"data/"+cat+"/" + filename, 'w') as f:
             json.dump(fused_data, f, indent=4)
-        
+
         print('file dumped to', filename)
