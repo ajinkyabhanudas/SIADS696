@@ -1,7 +1,8 @@
 # DEVELOPER NOTES
-## How to get data?
+## How to downlaod the data?
 - run `export API_KEY=<PUT_YOUR_API_KEY_HERE>`
 - run `make get-data`
+- Navigate to the python script and comment out the channels you've successfully extracted data from to avoid a duplicate download.
 
 
 # SIADS696
