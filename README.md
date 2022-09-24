@@ -1,3 +1,9 @@
+# DEVELOPER NOTES
+## How to get data?
+- run `export API_KEY=<PUT_YOUR_API_KEY_HERE>`
+- run `make get-data`
+
+
 # SIADS696
 ## Youtube Video Title Analysis and Views Prediction
 <i>Ajinkya Bhanudas Dessai, Chauncey Raggie, Poom Khorchitmate</i>
