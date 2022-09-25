@@ -1,4 +1,10 @@
 # DEVELOPER NOTES
+- Make sure to push into the `dev` branch only.
+- Before pushing your code with the downloaded data, make sure to do a `git pull` on the `dev branch` (this will avoid merge conflicts)
+- `git commit -m "<a few words on what is pushed>"`
+- `git add .` adds all in all the changes
+- `git push` to push the code into the `dev` branch repository
+
 ## How to downlaod the data?
 - Open a console/terminal window and navigate to the `SIADS696` directory
 - run `export API_KEY=<PUT_YOUR_API_KEY_HERE>`
