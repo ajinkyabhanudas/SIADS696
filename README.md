@@ -1,6 +1,6 @@
 # DEVELOPER NOTES
 - Make sure to push into the `dev` branch only.
-- Before pushing your code with the downloaded data, make sure to do a `git pull` on the `dev branch` (this will avoid merge conflicts)
+- Before pushing your code with the downloaded data, make sure to do a `git pull` on the `dev branch` (this will download the latest changes locally for you and avoid merge conflicts)
 - `git commit -m "<a few words on what is pushed>"`
 - `git add .` adds all in all the changes
 - `git push` to push the code into the `dev` branch repository
