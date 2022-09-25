@@ -121,8 +121,8 @@ category_dict = {
     }
     ,
     "Travel": {
-        "INSIDER": 'UCHJuQZuzapBh-CuhRYxIZrg',
-        "Mark Wiens": 'UCyEd6QBSgat5kkC6svyjudA',
+        # "INSIDER": 'UCHJuQZuzapBh-CuhRYxIZrg',
+        # "Mark Wiens": 'UCyEd6QBSgat5kkC6svyjudA',
         "George Benson": 'UCdPambxHRj0kdFPNoJFM98A',
         "Collin Abroadcast": 'UCXsQlHGuoWqukC9vz-uonrg',
         "High On Life": 'UCd5xLBi_QU6w7RGm5TTznyQ',
