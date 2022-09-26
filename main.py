@@ -106,8 +106,8 @@ category_dict = {
         "Bruno Mars": 'UCoUM-UJ7rirJYP8CQ0EIaHA',
         "Marshmello": 'UCEdvpU2pFRCVqU6yIPyTpMQ',
     }
-    ,
-    "Comedy": {
+    # ,
+    # "Comedy": {
         # "Smosh": 'UCY30JRSgfhYXA6i6xX1erWg',
         # "shane": 'UCV9_KinVpV-snHe3C3n1hvA',
         # "JennaMarbles": 'UC9gFih9rw0zNCK3ZtoKQQyA', ##300 videos left here
@@ -116,9 +116,9 @@ category_dict = {
         # "Super Woman": 'UCfm4y4rHF5HGrSr-qbvOwOg',
         # "FailArmy": 'UCPDis9pjXuqyI7RYLJ-TTSA',
         # "Rclbeauty101": 'Rclbeauty101', ##unable to fetch
-        "CollegeHumor": 'UCPDXXXJj9nax0fr0Wfc048g',
-        "Lele Pons": 'UCi9cDo6239RAzPpBZO9y5SA',
-    }
+        # "CollegeHumor": 'UCPDXXXJj9nax0fr0Wfc048g',
+        # "Lele Pons": 'UCi9cDo6239RAzPpBZO9y5SA',
+    # }
     ,
     "Travel": {
         # "INSIDER": 'UCHJuQZuzapBh-CuhRYxIZrg',
