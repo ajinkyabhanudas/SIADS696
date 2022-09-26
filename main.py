@@ -95,11 +95,11 @@ category_dict = {
     }
     ,
     "Music": {
-        "Ed Sheeran": 'UC0C-w0YjGpqDXGB8IHb662A',
-        "Eminem": 'UCfM3zsQsOnfWNUppiycmBuw',
-        "Katy Perry": 'UCYvmuw-JtVrTZQ-7Y4kd63Q',
-        "Taylor Swift": 'UCqECaJ8Gagnn7YCbPEzWH6g',
-        "One Direction": 'UCb2HGwORFBo94DmRx4oLzow',
+        # "Ed Sheeran": 'UC0C-w0YjGpqDXGB8IHb662A',
+        # "Eminem": 'UCfM3zsQsOnfWNUppiycmBuw',
+        # "Katy Perry": 'UCYvmuw-JtVrTZQ-7Y4kd63Q',
+        # "Taylor Swift": 'UCqECaJ8Gagnn7YCbPEzWH6g',
+        # "One Direction": 'UCb2HGwORFBo94DmRx4oLzow',
         "Ariana Grande": 'UC9CoOnJkIBMdeijd9qYoT_g',
         "Spinnin’ Records": 'UCpDJl2EmP7Oh90Vylx0dZtA',
         "Trap Nation": 'UCa10nxShhzNrCE1o2ZOPztg',
