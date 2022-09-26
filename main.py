@@ -7,9 +7,9 @@ category_dict = {
         # "The_King_of_Random" : 'UC1zZE_kJ8rQHgLTVfobLi_g',
         # "National_Geographic": 'UCpVm7bg6pXKo1Pr6k5kxG9A',
         # "Crash_Course": 'crashcourse',
-        "Ted-Ed": 'UCsooa4yRKGN_zEE8iknghZA',
-        "Matthew_Santoro": 'UCXhSCMRRPyxSoyLSPFxK7VA',
-        "Alltime10s": 'UCGi_crMdUZnrcsvkCa8pt-g',
+        # "Ted-Ed": 'UCsooa4yRKGN_zEE8iknghZA',
+        # "Matthew_Santoro": 'UCXhSCMRRPyxSoyLSPFxK7VA',
+        # "Alltime10s": 'UCGi_crMdUZnrcsvkCa8pt-g',
         "SciShow": 'UCZYTClx2T1of7BRZ86-8fow',
         "Veritasium": 'UCHnyfMqiRRG1u-2MsSQLbXA',
         "Mind_Warehouse": 'UCYenDLnIHsoqQ6smwKXQ7Hg',
@@ -108,14 +108,14 @@ category_dict = {
     }
     ,
     "Comedy": {
-        "Smosh": 'UCY30JRSgfhYXA6i6xX1erWg',
-        "shane": 'UCV9_KinVpV-snHe3C3n1hvA',
-        "JennaMarbles": 'UC9gFih9rw0zNCK3ZtoKQQyA',
-        "The Tonight Show Starring Jimmy Fallon": 'UC8-Th83bH_thdKZDJCrn88g',
-        "Liza Koshy": 'UCxSz6JVYmzVhtkraHWZC7HQ',
-        "Super Woman": 'UCfm4y4rHF5HGrSr-qbvOwOg',
-        "FailArmy": 'UCPDis9pjXuqyI7RYLJ-TTSA',
-        "Rclbeauty101": 'Rclbeauty101',
+        # "Smosh": 'UCY30JRSgfhYXA6i6xX1erWg',
+        # "shane": 'UCV9_KinVpV-snHe3C3n1hvA',
+        # "JennaMarbles": 'UC9gFih9rw0zNCK3ZtoKQQyA', ##300 videos left here
+        # "The Tonight Show Starring Jimmy Fallon": 'UC8-Th83bH_thdKZDJCrn88g',
+        # "Liza Koshy": 'UCxSz6JVYmzVhtkraHWZC7HQ',
+        # "Super Woman": 'UCfm4y4rHF5HGrSr-qbvOwOg',
+        # "FailArmy": 'UCPDis9pjXuqyI7RYLJ-TTSA',
+        # "Rclbeauty101": 'Rclbeauty101', ##unable to fetch
         "CollegeHumor": 'UCPDXXXJj9nax0fr0Wfc048g',
         "Lele Pons": 'UCi9cDo6239RAzPpBZO9y5SA',
     }
