@@ -119,19 +119,19 @@ category_dict = {
         # "CollegeHumor": 'UCPDXXXJj9nax0fr0Wfc048g',
         # "Lele Pons": 'UCi9cDo6239RAzPpBZO9y5SA',
     # }
-    ,
-    "Travel": {
+    # ,
+    # "Travel": {
         # "INSIDER": 'UCHJuQZuzapBh-CuhRYxIZrg',
         # "Mark Wiens": 'UCyEd6QBSgat5kkC6svyjudA',
-        "George Benson": 'UCdPambxHRj0kdFPNoJFM98A',
-        "Collin Abroadcast": 'UCXsQlHGuoWqukC9vz-uonrg',
-        "High On Life": 'UCd5xLBi_QU6w7RGm5TTznyQ',
-        "Expedia": 'UCGaOvAFinZ7BCN_FDmw74fQ',
-        "Miss Mina": 'UC8hI77bH0VraIw6p2PHwivQ',
-        "Chonnyday ": 'UC_ptyMRLOsS1Uj0a34a_xCA',
-        "Stories": 'UCJsSEDFFnMFvW9JWU6XUn0Q',
-        "Rick Steves Europe": 'UCchgIh8Tc4sTmBfnMQ5pDdg',
-    }
+        # "George Benson": 'UCdPambxHRj0kdFPNoJFM98A',
+        # "Collin Abroadcast": 'UCXsQlHGuoWqukC9vz-uonrg',
+        # "High On Life": 'UCd5xLBi_QU6w7RGm5TTznyQ',
+        # "Expedia": 'UCGaOvAFinZ7BCN_FDmw74fQ',
+        # "Miss Mina": 'UC8hI77bH0VraIw6p2PHwivQ',
+        # "Chonnyday": 'UC_ptyMRLOsS1Uj0a34a_xCA',
+        # "Stories": 'UCJsSEDFFnMFvW9JWU6XUn0Q',
+        # "Rick Steves Europe": 'UCchgIh8Tc4sTmBfnMQ5pDdg',
+    # }
 }
 
 if __name__ == '__main__':
