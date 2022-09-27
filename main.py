@@ -56,15 +56,15 @@ category_dict = {
     }
     ,
     "History": {
-        "History_Channel": 'HISTORY',
-        "Alternate_History_Hub": 'AlternateHistoryHub',
-        "Simple_History": 'UC510QYlOlKNyhy_zdQxnGYw',
-        "Oversimplified": 'Webzwithaz',
-        "History_Buffs": 'UCggHoXaj8BQHIiPmOxezeWA',
-        "Timeline-World_History_Documentaries": 'UC88lvyJe7aHZmcvzvubDFRg',
-        "Overly_Sarcastic_Productions": 'RedEyesTakeWarning',
-        "Historia_Civillis": 'UCv_vLHiWVBh_FR9vbeuiY-A',
-        "BazBattles": 'UCx-dJoP9hFCBloY9qodykvw',
+        # "History_Channel": 'HISTORY', #cannot fetch
+        # "Alternate_History_Hub": 'AlternateHistoryHub', #cannot fetch
+        # "Simple_History": 'UC510QYlOlKNyhy_zdQxnGYw',
+        # "Oversimplified": 'Webzwithaz', #cannot fetch
+        # "History_Buffs": 'UCggHoXaj8BQHIiPmOxezeWA',
+        # "Timeline-World_History_Documentaries": 'UC88lvyJe7aHZmcvzvubDFRg',
+        # "Overly_Sarcastic_Productions": 'RedEyesTakeWarning', #cannot fetch
+        # "Historia_Civillis": 'UCv_vLHiWVBh_FR9vbeuiY-A',
+        # "BazBattles": 'UCx-dJoP9hFCBloY9qodykvw',
         "Feature_History": 'UCHdluULl5c7bilx1x1TGzJQ',
     }
     ,
