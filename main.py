@@ -93,19 +93,19 @@ category_dict = {
         "The_Young_Turks": 'UC1yBKRuGpC1tSM73A0ZjYjQ',
         "BBC_News": 'UC16niRr50-MSBwiO3YDb3RA',
     }
-    ,
-    "Music": {
+    # ,
+    # "Music": {
         # "Ed Sheeran": 'UC0C-w0YjGpqDXGB8IHb662A',
         # "Eminem": 'UCfM3zsQsOnfWNUppiycmBuw',
         # "Katy Perry": 'UCYvmuw-JtVrTZQ-7Y4kd63Q',
         # "Taylor Swift": 'UCqECaJ8Gagnn7YCbPEzWH6g',
         # "One Direction": 'UCb2HGwORFBo94DmRx4oLzow',
-        "Ariana Grande": 'UC9CoOnJkIBMdeijd9qYoT_g',
-        "Spinnin’ Records": 'UCpDJl2EmP7Oh90Vylx0dZtA',
-        "Trap Nation": 'UCa10nxShhzNrCE1o2ZOPztg',
-        "Bruno Mars": 'UCoUM-UJ7rirJYP8CQ0EIaHA',
-        "Marshmello": 'UCEdvpU2pFRCVqU6yIPyTpMQ',
-    }
+        # "Ariana Grande": 'UC9CoOnJkIBMdeijd9qYoT_g',
+        # "Spinnin’ Records": 'UCpDJl2EmP7Oh90Vylx0dZtA',
+        # "Trap Nation": 'UCa10nxShhzNrCE1o2ZOPztg',
+        # "Bruno Mars": 'UCoUM-UJ7rirJYP8CQ0EIaHA',
+        # "Marshmello": 'UCEdvpU2pFRCVqU6yIPyTpMQ',
+    # }
     # ,
     # "Comedy": {
         # "Smosh": 'UCY30JRSgfhYXA6i6xX1erWg',
