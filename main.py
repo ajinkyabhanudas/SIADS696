@@ -10,9 +10,9 @@ category_dict = {
         # "Ted-Ed": 'UCsooa4yRKGN_zEE8iknghZA',
         # "Matthew_Santoro": 'UCXhSCMRRPyxSoyLSPFxK7VA',
         # "Alltime10s": 'UCGi_crMdUZnrcsvkCa8pt-g',
-        "SciShow": 'UCZYTClx2T1of7BRZ86-8fow',
-        "Veritasium": 'UCHnyfMqiRRG1u-2MsSQLbXA',
-        "Mind_Warehouse": 'UCYenDLnIHsoqQ6smwKXQ7Hg',
+        # "SciShow": 'UCZYTClx2T1of7BRZ86-8fow',
+        # "Veritasium": 'UCHnyfMqiRRG1u-2MsSQLbXA',
+        # "Mind_Warehouse": 'UCYenDLnIHsoqQ6smwKXQ7Hg',
         "Khan_Academy": 'UC4a-Gbdw7vOaccHmFo40b9g'
     }
     ,
