@@ -80,8 +80,8 @@ category_dict = {
         "IncredibleScience": 'IncredibleScience',
         "Science Insider": 'UC9uD-W5zQHQuAVT2GdcLCvg',
     }
-    ,
-    "News": {
+    # ,
+    # "News": {
         # "Vice": 'UCn8zNIfYAQNdrFRrr8oibKw',
         # "IndiaTV": 'UCttspZesZIDEwwpVIgoZtWQ',
         # "Barcroft_TV": 'UCfwx98Wty7LhdlkxL5PZyLA',
@@ -91,8 +91,8 @@ category_dict = {
         # "Inside_Edition": 'UC9k-yiEpRHMNVOnOi_aQK8w',
         # "ABC_News": 'UCBi2mrWuNuyYy4gbM6fU18Q',
         # "The_Young_Turks": 'UC1yBKRuGpC1tSM73A0ZjYjQ',
-        "BBC_News": 'UC16niRr50-MSBwiO3YDb3RA',
-    }
+        # "BBC_News": 'UC16niRr50-MSBwiO3YDb3RA',
+    # }
     # ,
     # "Music": {
         # "Ed Sheeran": 'UC0C-w0YjGpqDXGB8IHb662A',
