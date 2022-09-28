@@ -55,19 +55,19 @@ category_dict = {
         "Yoga_By_Candace": 'UCI9s9nFu2m3K2CvhO2QVfTg',
     }
     ,
-    "History": {
+    # "History": {
         # "History_Channel": 'HISTORY', #cannot fetch
-        "Alternate_History_Hub": 'UClfEht64_NrzHf8Y0slKEjw',
+        # "Alternate_History_Hub": 'UClfEht64_NrzHf8Y0slKEjw',
         # "Simple_History": 'UC510QYlOlKNyhy_zdQxnGYw',
         # "Oversimplified": 'Webzwithaz', #cannot fetch
         # "History_Buffs": 'UCggHoXaj8BQHIiPmOxezeWA',
         # "Timeline-World_History_Documentaries": 'UC88lvyJe7aHZmcvzvubDFRg',
-        "Overly_Sarcastic_Productions": 'UCodbH5mUeF-m_BsNueRDjcw',
+        # "Overly_Sarcastic_Productions": 'UCodbH5mUeF-m_BsNueRDjcw',
         # "Historia_Civillis": 'UCv_vLHiWVBh_FR9vbeuiY-A',
         # "BazBattles": 'UCx-dJoP9hFCBloY9qodykvw',
-        "Feature_History": 'UCHdluULl5c7bilx1x1TGzJQ',
+        # "Feature_History": 'UCHdluULl5c7bilx1x1TGzJQ',
     }
-    ,
+    # ,
     # "Science": {
         # "AsapSCIENCE": 'UCC552Sd-3nyi_tk2BudLUzA',
         # "Kurzgesagt": 'UCsXVk37bltHxD1rDPwtNM8Q',
