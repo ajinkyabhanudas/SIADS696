@@ -43,13 +43,13 @@ category_dict = {
     }
     ,
     "Yoga": {
-        "Yoga_With_Adrienne": 'UCFKE7WVJfvaHW5q283SxchA',
-        "PsycheTruth": 'UCGb34D3ThpmjLNn-FLv2_yQ',
+        # "Yoga_With_Adrienne": 'UCFKE7WVJfvaHW5q283SxchA',
+        # "PsycheTruth": 'UCGb34D3ThpmjLNn-FLv2_yQ',
         # "Boho_Beautiful": 'cexercize',
-        "KinoYoga": 'UCH-81uaxCwAAaSgxRtxMkxg',
-        "Fightmaster_Yoga": 'UCcox27Gc-NGbb2-X9hdLaMw',
-        "SarahBethYoga": 'UC-0CzRZeML8zw4pFTVDq65Q',
-        "TaraStiles": 'UCa5OCJkZgtbIkaB1sA86XVA',
+        # "KinoYoga": 'UCH-81uaxCwAAaSgxRtxMkxg',
+        # "Fightmaster_Yoga": 'UCcox27Gc-NGbb2-X9hdLaMw',
+        # "SarahBethYoga": 'UC-0CzRZeML8zw4pFTVDq65Q',
+        # "TaraStiles": 'UCa5OCJkZgtbIkaB1sA86XVA',
         "Ekhart_Yoga": 'UCFYsO0t3zj0eJ_NcOlowTSA',
         # "DOYOUYOGA.com": 'DoYouYoga',
         "Yoga_By_Candace": 'UCI9s9nFu2m3K2CvhO2QVfTg',
@@ -66,7 +66,7 @@ category_dict = {
         # "Historia_Civillis": 'UCv_vLHiWVBh_FR9vbeuiY-A',
         # "BazBattles": 'UCx-dJoP9hFCBloY9qodykvw',
         # "Feature_History": 'UCHdluULl5c7bilx1x1TGzJQ',
-    }
+    # }
     # ,
     # "Science": {
         # "AsapSCIENCE": 'UCC552Sd-3nyi_tk2BudLUzA',
