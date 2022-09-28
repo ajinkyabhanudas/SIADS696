@@ -1,4 +1,4 @@
-import json
+import os, json
 import requests
 from tqdm import tqdm
 
@@ -129,7 +129,8 @@ class YTstats:
         channel_title = self.video_data.popitem()[1].get('channelTitle', self.channel_id)
         channel_title = channel_title.replace(" ", "_").lower()
         filename = channel_title + '.json'
-        with open("./"+"data/"+cat+"/" + filename, 'w') as f:
+        path = os.path.join('data', cat, filename)
+        with open(path, 'w') as f:
             json.dump(fused_data, f, indent=4)
 
         print('file dumped to', filename)

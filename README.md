@@ -6,9 +6,9 @@
 - `git add .` adds all in all the changes
 - `git push` to push the code into the `dev` branch repository
 
-## How to downlaod the data?
+## How to download the data?
 - Open a console/terminal window and navigate to the `SIADS696` directory
-- run `export API_KEY=<PUT_YOUR_API_KEY_HERE>`
+- run `export API_KEY=<PUT_YOUR_API_KEY_HERE>` 
 - run `make get-data`
 - Navigate to the `main.py` python script and comment out the channels you've successfully extracted data from to avoid a duplicate download.
 
