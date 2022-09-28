@@ -42,7 +42,7 @@ category_dict = {
         # "Sascha_Fitness": 'saschafitness',
     }
     ,
-    "Yoga": {
+    # "Yoga": {
         # "Yoga_With_Adrienne": 'UCFKE7WVJfvaHW5q283SxchA',
         # "PsycheTruth": 'UCGb34D3ThpmjLNn-FLv2_yQ',
         # "Boho_Beautiful": 'cexercize',
@@ -50,11 +50,11 @@ category_dict = {
         # "Fightmaster_Yoga": 'UCcox27Gc-NGbb2-X9hdLaMw',
         # "SarahBethYoga": 'UC-0CzRZeML8zw4pFTVDq65Q',
         # "TaraStiles": 'UCa5OCJkZgtbIkaB1sA86XVA',
-        "Ekhart_Yoga": 'UCFYsO0t3zj0eJ_NcOlowTSA',
+        # "Ekhart_Yoga": 'UCFYsO0t3zj0eJ_NcOlowTSA',
         # "DOYOUYOGA.com": 'DoYouYoga',
-        "Yoga_By_Candace": 'UCI9s9nFu2m3K2CvhO2QVfTg',
-    }
-    ,
+        # "Yoga_By_Candace": 'UCI9s9nFu2m3K2CvhO2QVfTg',
+    # }
+    # ,
     # "History": {
         # "History_Channel": 'HISTORY', #cannot fetch
         # "Alternate_History_Hub": 'UClfEht64_NrzHf8Y0slKEjw',
