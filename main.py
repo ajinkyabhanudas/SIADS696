@@ -16,7 +16,7 @@ category_dict = {
         "Khan_Academy": 'UC4a-Gbdw7vOaccHmFo40b9g'
     }
     ,
-    "Cooking": {
+    # "Cooking": {
         # "Tasty": 'UCJFp8uSYCjXOMnkUyb3CQ3Q',
         # # "Epic_Meal_Time": 'EpicMealTime',
         # "Jamie_Oliver": 'UCpSgg_ECBj25s9moCDfSTsA',
@@ -24,11 +24,11 @@ category_dict = {
         # "Binging_with_Babish": 'bgfilms',
         # "Laura_in_the_Kitchen": 'LauraVitalesKitchen',
         # "MaangChi": 'Maangchi',
-        "JunsKitchen": 'UCRxAgfYexGLlu1WHGIMUDqw',
-        "Bon_Appetit": 'UCbpMy0Fg74eXXkvxJrtEn3w',
-        "SORTEDfood": 'UCfyehHM_eo4g5JUyWmms2LA'
-    }
-    ,
+        # "JunsKitchen": 'UCRxAgfYexGLlu1WHGIMUDqw',
+        # "Bon_Appetit": 'UCbpMy0Fg74eXXkvxJrtEn3w',
+        # "SORTEDfood": 'UCfyehHM_eo4g5JUyWmms2LA'
+    # }
+    # ,
     # "Fitness_workout": {
         # "FitnessBlender": 'UCiP6wD_tYlYLYh3agzbByWQ',
         # "blogilates": 'blogilates',
@@ -40,7 +40,7 @@ category_dict = {
         # "Whitney_Simmons": 'UCEQi1ZNJiw3YMRwni0OLsTQ',
         # "Jordan_Yeoh_Fitness": 'UC4GJndVHEhdmqLFBHOCi97A',
         # "Sascha_Fitness": 'saschafitness',
-    }
+    # }
     # ,
     # "Yoga": {
         # "Yoga_With_Adrienne": 'UCFKE7WVJfvaHW5q283SxchA',
