@@ -29,19 +29,19 @@ category_dict = {
         "SORTEDfood": 'UCfyehHM_eo4g5JUyWmms2LA'
     }
     ,
-    "Fitness_workout": {
+    # "Fitness_workout": {
         # "FitnessBlender": 'UCiP6wD_tYlYLYh3agzbByWQ',
         # "blogilates": 'blogilates',
         # "XHIT_Daily": 'UCM1Nde-9eorUhq-teaWlgUA',
         # "POPSUGAR_Fitness": 'UCBINFWq52ShSgUFEoynfSwg',
-        "ScottHermanFitness": 'UCEtMRF1ywKMc4sf3EXYyDzw',
-        "The_Fitness_Marshall": 'UCyqR7WkL8i1b6xtSssDmW9w',
-        "Guru_Mann_Fitness": 'UCGMOauU8dOd4mv2bT3Tx57w',
-        "Whitney_Simmons": 'UCEQi1ZNJiw3YMRwni0OLsTQ',
-        "Jordan_Yeoh_Fitness": 'UC4GJndVHEhdmqLFBHOCi97A',
+        # "ScottHermanFitness": 'UCEtMRF1ywKMc4sf3EXYyDzw',
+        # "The_Fitness_Marshall": 'UCyqR7WkL8i1b6xtSssDmW9w',
+        # "Guru_Mann_Fitness": 'UCGMOauU8dOd4mv2bT3Tx57w',
+        # "Whitney_Simmons": 'UCEQi1ZNJiw3YMRwni0OLsTQ',
+        # "Jordan_Yeoh_Fitness": 'UC4GJndVHEhdmqLFBHOCi97A',
         # "Sascha_Fitness": 'saschafitness',
     }
-    ,
+    # ,
     # "Yoga": {
         # "Yoga_With_Adrienne": 'UCFKE7WVJfvaHW5q283SxchA',
         # "PsycheTruth": 'UCGb34D3ThpmjLNn-FLv2_yQ',
