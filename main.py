@@ -3,7 +3,7 @@ from yt_stats import YTstats
 import argparse
 
 category_dict = {
-    "Educational": {
+    # "Educational": {
         # "The_King_of_Random" : 'UC1zZE_kJ8rQHgLTVfobLi_g',
         # "National_Geographic": 'UCpVm7bg6pXKo1Pr6k5kxG9A',
         # "Crash_Course": 'crashcourse',
@@ -13,9 +13,9 @@ category_dict = {
         # "SciShow": 'UCZYTClx2T1of7BRZ86-8fow',
         # "Veritasium": 'UCHnyfMqiRRG1u-2MsSQLbXA',
         # "Mind_Warehouse": 'UCYenDLnIHsoqQ6smwKXQ7Hg',
-        "Khan_Academy": 'UC4a-Gbdw7vOaccHmFo40b9g'
-    }
-    ,
+        # "Khan_Academy": 'UC4a-Gbdw7vOaccHmFo40b9g'
+    # }
+    # ,
     # "Cooking": {
         # "Tasty": 'UCJFp8uSYCjXOMnkUyb3CQ3Q',
         # # "Epic_Meal_Time": 'EpicMealTime',
