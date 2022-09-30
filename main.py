@@ -132,7 +132,7 @@ category_dict = {
         'US Military News' : 'UC0bpxzOXueQV7rRPomDiX8A'
     }
     ,
-    "Music": {
+    # "Music": {
         # "Ed Sheeran": 'UC0C-w0YjGpqDXGB8IHb662A',
         # "Eminem": 'UCfM3zsQsOnfWNUppiycmBuw',
         # "Katy Perry": 'UCYvmuw-JtVrTZQ-7Y4kd63Q',
@@ -143,13 +143,13 @@ category_dict = {
         # "Trap Nation": 'UCa10nxShhzNrCE1o2ZOPztg',
         # "Bruno Mars": 'UCoUM-UJ7rirJYP8CQ0EIaHA',
         # "Marshmello": 'UCEdvpU2pFRCVqU6yIPyTpMQ',
-        'Trap Nation' : 'UCa10nxShhzNrCE1o2ZOPztg',
-        'No Copyright Sounds': 'UC_aEa8K-EOJ3D6gOs7HcyNg',
-        'Ultra Music': 'UC4rasfm9J-X4jNl9SvXp8xA',
-        'Audio Library': 'UCht8qITGkBvXKsR1Byln-wA',
+        # 'Trap Nation' : 'UCa10nxShhzNrCE1o2ZOPztg',
+        # 'No Copyright Sounds': 'UC_aEa8K-EOJ3D6gOs7HcyNg',
+        # 'Ultra Music': 'UC4rasfm9J-X4jNl9SvXp8xA',
+        # 'Audio Library': 'UCht8qITGkBvXKsR1Byln-wA',
 
-    }
-    ,
+    # }
+    # ,
     # "Comedy": {
         # "Smosh": 'UCY30JRSgfhYXA6i6xX1erWg',
         # "shane": 'UCV9_KinVpV-snHe3C3n1hvA',
