@@ -6,7 +6,7 @@ category_dict = {
     "Educational": {
         # "The_King_of_Random" : 'UC1zZE_kJ8rQHgLTVfobLi_g',
         # "National_Geographic": 'UCpVm7bg6pXKo1Pr6k5kxG9A',
-        "Crash_Course": 'UCaHx0T1LWrVKWF1XfWWLSuw',
+        # "Crash_Course": 'UCaHx0T1LWrVKWF1XfWWLSuw',
         # "Ted-Ed": 'UCsooa4yRKGN_zEE8iknghZA',
         # "Matthew_Santoro": 'UCXhSCMRRPyxSoyLSPFxK7VA',
         # "Alltime10s": 'UCGi_crMdUZnrcsvkCa8pt-g',
@@ -14,10 +14,10 @@ category_dict = {
         # "Veritasium": 'UCHnyfMqiRRG1u-2MsSQLbXA',
         # "Mind_Warehouse": 'UCYenDLnIHsoqQ6smwKXQ7Hg',
         # "Khan_Academy": 'UC4a-Gbdw7vOaccHmFo40b9g',
-        'vsauce' : 'UCaHx0T1LWrVKWF1XfWWLSuw',
-        'c.g.p.grey' : 'UC2C_jShtL725hvbm1arSV9w',
-        'national geographic' : 'UCpVm7bg6pXKo1Pr6k5kxG9A',
-        'mit opencourse ware': 'UCEBb1b_L6zDS3xTUrIALZOw'
+        # 'vsauce' : 'UC6nSFpj9HTCZ5t-N3Rm3-HA',
+        # 'c.g.p.grey' : 'UC2C_jShtL725hvbm1arSV9w',
+        # 'national geographic' : 'UCpVm7bg6pXKo1Pr6k5kxG9A',
+        # 'mit opencourse ware': 'UCEBb1b_L6zDS3xTUrIALZOw'
     }
     ,
     "Cooking": {
