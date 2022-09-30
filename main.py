@@ -147,7 +147,7 @@ category_dict = {
         'No Copyright Sounds': 'UC_aEa8K-EOJ3D6gOs7HcyNg',
         'Ultra Music': 'UC4rasfm9J-X4jNl9SvXp8xA',
         'Audio Library': 'UCht8qITGkBvXKsR1Byln-wA',
-        
+
     }
     ,
     "Comedy": {
@@ -161,6 +161,11 @@ category_dict = {
         "Rclbeauty101": 'UCB0d0JLn1WcGYcwwZ87d2LA', ##unable to fetch
         # "CollegeHumor": 'UCPDXXXJj9nax0fr0Wfc048g',
         # "Lele Pons": 'UCi9cDo6239RAzPpBZO9y5SA',
+        'Nigahiga': 'UCSAUGyc_xA8uYzaIVG6MESQ',
+        'BFvsGF': 'UCgefQJC5UgbWJHDxBqB4qVg',
+        'Bart Baker' : 'UCazMm3tOCkYrIGE_17j0mVg',
+        'Thelonelyisland': 'UCCHcEUksSVKsRDH86j77Ntg',
+        'ExplosmEntertainment':'UCWXCrItCF6ZgXrdozUS-Idw'
     }
     ,
     "Travel": {
@@ -174,6 +179,11 @@ category_dict = {
         # "Chonnyday": 'UC_ptyMRLOsS1Uj0a34a_xCA',
         # "Stories": 'UCJsSEDFFnMFvW9JWU6XUn0Q',
         # "Rick Steves Europe": 'UCchgIh8Tc4sTmBfnMQ5pDdg',
+        'Mark Abroad':'UCxkF42nqXoZ0sZP-GqU-Cww',
+        'Drew Binsky': 'UC0Ize0RLIbGdH5x4wI45G-A',
+        'ARIENNE PARZEI': 'UCH2X0QCXlWNfBC7RpPNfe0g',
+        'Going Awesome Places': 'UCKCRueDLpzx1vBcQHCc4ZHA',
+        'Be My Travel Muse': 'UCVdvbdhaXo01c1G4mNp1RsQ' 
     }
 }
 
