@@ -150,7 +150,7 @@ category_dict = {
 
     }
     ,
-    "Comedy": {
+    # "Comedy": {
         # "Smosh": 'UCY30JRSgfhYXA6i6xX1erWg',
         # "shane": 'UCV9_KinVpV-snHe3C3n1hvA',
         # "JennaMarbles": 'UC9gFih9rw0zNCK3ZtoKQQyA', ##300 videos left here
@@ -161,13 +161,13 @@ category_dict = {
         # "Rclbeauty101": 'UCB0d0JLn1WcGYcwwZ87d2LA', ##unable to fetch
         # "CollegeHumor": 'UCPDXXXJj9nax0fr0Wfc048g',
         # "Lele Pons": 'UCi9cDo6239RAzPpBZO9y5SA',
-        'Nigahiga': 'UCSAUGyc_xA8uYzaIVG6MESQ',
-        'BFvsGF': 'UCgefQJC5UgbWJHDxBqB4qVg',
-        'Bart Baker': 'UCazMm3tOCkYrIGE_17j0mVg',
-        'Thelonelyisland': 'UCCHcEUksSVKsRDH86j77Ntg',
-        'ExplosmEntertainment':'UCWXCrItCF6ZgXrdozUS-Idw'
-    }
-    ,
+        # 'Nigahiga': 'UCSAUGyc_xA8uYzaIVG6MESQ',
+        # 'BFvsGF': 'UCgefQJC5UgbWJHDxBqB4qVg',
+        # 'Bart Baker': 'UCazMm3tOCkYrIGE_17j0mVg',
+        # 'Thelonelyisland': 'UCCHcEUksSVKsRDH86j77Ntg',
+        # 'ExplosmEntertainment':'UCWXCrItCF6ZgXrdozUS-Idw'
+    # }
+    # ,
     # "Travel": {
         # "INSIDER": 'UCHJuQZuzapBh-CuhRYxIZrg',
         # "Mark Wiens": 'UCyEd6QBSgat5kkC6svyjudA',
