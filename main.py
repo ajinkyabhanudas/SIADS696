@@ -3,7 +3,7 @@ from yt_stats import YTstats
 import argparse
 
 category_dict = {
-    "Educational": {
+    # "Educational": {
         # "The_King_of_Random" : 'UC1zZE_kJ8rQHgLTVfobLi_g',
         # "National_Geographic": 'UCpVm7bg6pXKo1Pr6k5kxG9A',
         # "Crash_Course": 'UCaHx0T1LWrVKWF1XfWWLSuw',
@@ -18,8 +18,8 @@ category_dict = {
         # 'c.g.p.grey' : 'UC2C_jShtL725hvbm1arSV9w',
         # 'national geographic' : 'UCpVm7bg6pXKo1Pr6k5kxG9A',
         # 'mit opencourse ware': 'UCEBb1b_L6zDS3xTUrIALZOw'
-    }
-    ,
+    # }
+    # ,
     "Cooking": {
         # "Tasty": 'UCJFp8uSYCjXOMnkUyb3CQ3Q',
         "Epic_Meal_Time": 'UCYjk_zY-iYR8YNfJmuzd70A',
@@ -158,17 +158,17 @@ category_dict = {
         # "Liza Koshy": 'UCxSz6JVYmzVhtkraHWZC7HQ',
         # "Super Woman": 'UCfm4y4rHF5HGrSr-qbvOwOg',
         # "FailArmy": 'UCPDis9pjXuqyI7RYLJ-TTSA',
-        "Rclbeauty101": 'UCB0d0JLn1WcGYcwwZ87d2LA', ##unable to fetch
+        # "Rclbeauty101": 'UCB0d0JLn1WcGYcwwZ87d2LA', ##unable to fetch
         # "CollegeHumor": 'UCPDXXXJj9nax0fr0Wfc048g',
         # "Lele Pons": 'UCi9cDo6239RAzPpBZO9y5SA',
         'Nigahiga': 'UCSAUGyc_xA8uYzaIVG6MESQ',
         'BFvsGF': 'UCgefQJC5UgbWJHDxBqB4qVg',
-        'Bart Baker' : 'UCazMm3tOCkYrIGE_17j0mVg',
+        'Bart Baker': 'UCazMm3tOCkYrIGE_17j0mVg',
         'Thelonelyisland': 'UCCHcEUksSVKsRDH86j77Ntg',
         'ExplosmEntertainment':'UCWXCrItCF6ZgXrdozUS-Idw'
     }
     ,
-    "Travel": {
+    # "Travel": {
         # "INSIDER": 'UCHJuQZuzapBh-CuhRYxIZrg',
         # "Mark Wiens": 'UCyEd6QBSgat5kkC6svyjudA',
         # "George Benson": 'UCdPambxHRj0kdFPNoJFM98A',
@@ -179,12 +179,12 @@ category_dict = {
         # "Chonnyday": 'UC_ptyMRLOsS1Uj0a34a_xCA',
         # "Stories": 'UCJsSEDFFnMFvW9JWU6XUn0Q',
         # "Rick Steves Europe": 'UCchgIh8Tc4sTmBfnMQ5pDdg',
-        'Mark Abroad':'UCxkF42nqXoZ0sZP-GqU-Cww',
-        'Drew Binsky': 'UC0Ize0RLIbGdH5x4wI45G-A',
-        'ARIENNE PARZEI': 'UCH2X0QCXlWNfBC7RpPNfe0g',
-        'Going Awesome Places': 'UCKCRueDLpzx1vBcQHCc4ZHA',
-        'Be My Travel Muse': 'UCVdvbdhaXo01c1G4mNp1RsQ' 
-    }
+        # 'Mark Abroad':'UCxkF42nqXoZ0sZP-GqU-Cww',
+        # 'Drew Binsky': 'UC0Ize0RLIbGdH5x4wI45G-A',
+        # 'ARIENNE PARZEI': 'UCH2X0QCXlWNfBC7RpPNfe0g',
+        # 'Going Awesome Places': 'UCKCRueDLpzx1vBcQHCc4ZHA',
+        # 'Be My Travel Muse': 'UCVdvbdhaXo01c1G4mNp1RsQ'
+    # }
 }
 
 if __name__ == '__main__':
