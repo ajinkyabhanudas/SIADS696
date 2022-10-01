@@ -34,10 +34,10 @@ category_dict = {
         # 'new york times cooking': 'UC1rIOwTqDuWkFj87HZYRFOg',
         # 'pro home cook': 'UCzH5n3Ih5kgQoiDAQt2FwLw',
         # 'chef steps': 'UCxD2E-bVoUbaVFL0Q3PvJTg',
-        'you suck at cooking': 'UCekQr9znsk2vWxBo3YiLq2w',
-        'peaceful cuisine': 'UCQBG3PzyQKY8ieMG2gDAyOQ',
-        'joshua weissman': 'UChBEbMKI1eCcejTtmI32UEw',
-        'sam the cooking guy': 'UCbRj3Tcy1Zoz3rcf83nW5kw',
+        # 'you suck at cooking': 'UCekQr9znsk2vWxBo3YiLq2w',
+        # 'peaceful cuisine': 'UCQBG3PzyQKY8ieMG2gDAyOQ',
+        # 'joshua weissman': 'UChBEbMKI1eCcejTtmI32UEw',
+        # 'sam the cooking guy': 'UCbRj3Tcy1Zoz3rcf83nW5kw',
         'french cooking academy': 'UC0lG3Ihe4LGV851lODRIS5g',
         'everyday food': 'UCl0kP-Cfe-GGic7Ilnk-u_Q'
     }
