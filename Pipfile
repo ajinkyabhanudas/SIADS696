@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+streamlit = "==1.13.0"
 
 [dev-packages]
 pylint = "==2.13.2"
