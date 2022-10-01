@@ -97,24 +97,24 @@ category_dict = {
 
     }
     ,
-    "Science": {
+    # "Science": {
         # "AsapSCIENCE": 'UCC552Sd-3nyi_tk2BudLUzA',
         # "Kurzgesagt": 'UCsXVk37bltHxD1rDPwtNM8Q',
         # "SmarterEveryDay": 'UC6107grRI4m0o2-emgoDnAA',
         # "minutephysics": 'UCUHW94eEFW7hkUMVaZz4eDg',
         # "TheBackYardScientist": 'UC06E4Y_-ybJgBUMtXx8uNNw',
-        "charlieissocoollike": 'UCmQXOAse-VnzuXHebX5I77g',
-        "Beyond Science": 'UCxo8ooAqXiObjuaIy10ud0A',
+        # "charlieissocoollike": 'UCmQXOAse-VnzuXHebX5I77g',
+        # "Beyond Science": 'UCxo8ooAqXiObjuaIy10ud0A',
         # "Science Channel": 'UCvJiYiBUbw4tmpRSZT2r1Hw',
         # "IncredibleScience": 'UCJcycnanWtyOGcz34jUlYZA',
         # "Science Insider": 'UC9uD-W5zQHQuAVT2GdcLCvg',
-        '3Blue1Brown' : 'UCYO_jab_esuFRV4b17AJtAw',
-        'Physics Videos by Eugene Khutoryansky': 'UCJ0yBou72Lz9fqeMXh9mkog',
-        'acapellascience' : 'UCTev4RNBiu6lqtx8z1e87fQ',
-        'Lectures by Walter Lewin' : 'UCiEHVhv0SBMpP75JbzJShqw',
-        'The Science Asylum': 'UCXgNowiGxwwnLeQ7DXTwXPg'
-    }
-    ,
+        # '3Blue1Brown' : 'UCYO_jab_esuFRV4b17AJtAw',
+        # 'Physics Videos by Eugene Khutoryansky': 'UCJ0yBou72Lz9fqeMXh9mkog',
+        # 'acapellascience' : 'UCTev4RNBiu6lqtx8z1e87fQ',
+        # 'Lectures by Walter Lewin' : 'UCiEHVhv0SBMpP75JbzJShqw',
+        # 'The Science Asylum': 'UCXgNowiGxwwnLeQ7DXTwXPg'
+    # }
+    # ,
     # "News": {
         # "Vice": 'UCn8zNIfYAQNdrFRrr8oibKw',
         # "IndiaTV": 'UCttspZesZIDEwwpVIgoZtWQ',
