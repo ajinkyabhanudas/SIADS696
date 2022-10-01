@@ -115,7 +115,7 @@ category_dict = {
         'The Science Asylum': 'UCXgNowiGxwwnLeQ7DXTwXPg'
     }
     ,
-    "News": {
+    # "News": {
         # "Vice": 'UCn8zNIfYAQNdrFRrr8oibKw',
         # "IndiaTV": 'UCttspZesZIDEwwpVIgoZtWQ',
         # "Barcroft_TV": 'UCfwx98Wty7LhdlkxL5PZyLA',
@@ -126,12 +126,12 @@ category_dict = {
         # "ABC_News": 'UCBi2mrWuNuyYy4gbM6fU18Q',
         # "The_Young_Turks": 'UC1yBKRuGpC1tSM73A0ZjYjQ',
         # "BBC_News": 'UC16niRr50-MSBwiO3YDb3RA',
-        'Al Jazeera English': 'UCNye-wNBqNL5ZzHSJj3l8Bg',
-        'Fox News': 'UCXIJgqnII2ZOINSWNOGFThA',
-        "CBS News" : 'UC8p1vwvWtl6T73JiExfWs1g',
-        'US Military News' : 'UC0bpxzOXueQV7rRPomDiX8A'
-    }
-    ,
+        # 'Al Jazeera English': 'UCNye-wNBqNL5ZzHSJj3l8Bg',
+        # 'Fox News': 'UCXIJgqnII2ZOINSWNOGFThA',
+        # "CBS News" : 'UC8p1vwvWtl6T73JiExfWs1g',
+        # 'US Military News' : 'UC0bpxzOXueQV7rRPomDiX8A'
+    # }
+    # ,
     # "Music": {
         # "Ed Sheeran": 'UC0C-w0YjGpqDXGB8IHb662A',
         # "Eminem": 'UCfM3zsQsOnfWNUppiycmBuw',
