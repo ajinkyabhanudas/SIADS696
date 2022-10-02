@@ -38,8 +38,8 @@ category_dict = {
         # 'peaceful cuisine': 'UCQBG3PzyQKY8ieMG2gDAyOQ',
         # 'joshua weissman': 'UChBEbMKI1eCcejTtmI32UEw',
         # 'sam the cooking guy': 'UCbRj3Tcy1Zoz3rcf83nW5kw',
-        'french cooking academy': 'UC0lG3Ihe4LGV851lODRIS5g',
-        'everyday food': 'UCl0kP-Cfe-GGic7Ilnk-u_Q'
+        # 'french cooking academy': 'UC0lG3Ihe4LGV851lODRIS5g',
+        # 'everyday food': 'UCl0kP-Cfe-GGic7Ilnk-u_Q'
     }
     ,
     "Fitness_workout": {
