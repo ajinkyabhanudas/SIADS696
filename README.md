@@ -12,6 +12,10 @@
 - run `make get-data`
 - Navigate to the `main.py` python script and comment out the channels you've successfully extracted data from to avoid a duplicate download.
 
+### Streamlit boilerplate display can be accessed by running the following command:
+- make sure to have Pillow, protobuf, and streamlit installed or else this will error out. refer Pipfile for versions if you're running it outside the desired environment.
+- `streamlit run https://gist.githubusercontent.com/ajinkyabhanudas/5bf6214cdec46d68ba7dd706ce57ee0d/raw/288242fa80f8ebf91e173089e9dcb17619d564ff/app.py
+` 
 
 # SIADS696
 ## Youtube Video Title Analysis and Views Prediction
