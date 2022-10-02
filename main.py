@@ -20,7 +20,7 @@ category_dict = {
         # 'mit opencourse ware': 'UCEBb1b_L6zDS3xTUrIALZOw'
     # }
     # ,
-    "Cooking": {
+    # "Cooking": {
         # "Tasty": 'UCJFp8uSYCjXOMnkUyb3CQ3Q',
         # "Epic_Meal_Time": 'UCYjk_zY-iYR8YNfJmuzd70A',
         # "Jamie_Oliver": 'UCpSgg_ECBj25s9moCDfSTsA',
@@ -40,11 +40,11 @@ category_dict = {
         # 'sam the cooking guy': 'UCbRj3Tcy1Zoz3rcf83nW5kw',
         # 'french cooking academy': 'UC0lG3Ihe4LGV851lODRIS5g',
         # 'everyday food': 'UCl0kP-Cfe-GGic7Ilnk-u_Q'
-    }
-    ,
-    "Fitness_workout": {
+    # }
+    # ,
+    # "Fitness_workout": {
         # "FitnessBlender": 'UCiP6wD_tYlYLYh3agzbByWQ',
-        "blogilates": 'UCIJwWYOfsCfz6PjxbONYXSg',
+        # "blogilates": 'UCIJwWYOfsCfz6PjxbONYXSg',
         # "XHIT_Daily": 'UCM1Nde-9eorUhq-teaWlgUA',
         # "POPSUGAR_Fitness": 'UCBINFWq52ShSgUFEoynfSwg',
         # "ScottHermanFitness": 'UCEtMRF1ywKMc4sf3EXYyDzw',
@@ -52,13 +52,13 @@ category_dict = {
         # "Guru_Mann_Fitness": 'UCGMOauU8dOd4mv2bT3Tx57w',
         # "Whitney_Simmons": 'UCEQi1ZNJiw3YMRwni0OLsTQ',
         # "Jordan_Yeoh_Fitness": 'UC4GJndVHEhdmqLFBHOCi97A',
-        "Sascha_Fitness": 'UCiH4auDlkM0tgn9ewT3B1Vw',
-        'Krissy Cela': 'UCl1Tkl0amPsxWJ1HLQdj92A',
-        'Jeff Nippard' : 'UC68TLK0mAEzUyHx5x5k-S1Q',
-        'chris heria' : 'UCaBqRxHEMomgFU-AkSfodCw',
-        'MrandMrsMuscle' : 'UCJ2B_gnNWRE6QwgySgk-PlQ'
-    }
-    ,
+        # "Sascha_Fitness": 'UCiH4auDlkM0tgn9ewT3B1Vw',
+        # 'Krissy Cela': 'UCl1Tkl0amPsxWJ1HLQdj92A',
+        # 'Jeff Nippard' : 'UC68TLK0mAEzUyHx5x5k-S1Q',
+        # 'chris heria' : 'UCaBqRxHEMomgFU-AkSfodCw',
+        # 'MrandMrsMuscle' : 'UCJ2B_gnNWRE6QwgySgk-PlQ'
+    # }
+    # ,
     "Yoga": {
         # "Yoga_With_Adrienne": 'UCFKE7WVJfvaHW5q283SxchA',
         # "PsycheTruth": 'UCGb34D3ThpmjLNn-FLv2_yQ',
