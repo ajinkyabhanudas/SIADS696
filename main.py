@@ -62,13 +62,13 @@ category_dict = {
     "Yoga": {
         # "Yoga_With_Adrienne": 'UCFKE7WVJfvaHW5q283SxchA',
         # "PsycheTruth": 'UCGb34D3ThpmjLNn-FLv2_yQ',
-        "Boho_Beautiful": 'UCWN2FPlvg9r-LnUyepH9IaQ',
+        # "Boho_Beautiful": 'UCWN2FPlvg9r-LnUyepH9IaQ',
         # "KinoYoga": 'UCH-81uaxCwAAaSgxRtxMkxg',
         # "Fightmaster_Yoga": 'UCcox27Gc-NGbb2-X9hdLaMw',
         # "SarahBethYoga": 'UC-0CzRZeML8zw4pFTVDq65Q',
         # "TaraStiles": 'UCa5OCJkZgtbIkaB1sA86XVA',
         # "Ekhart_Yoga": 'UCFYsO0t3zj0eJ_NcOlowTSA',
-        "DOYOUYOGA.com": 'UCEdFmnwp53XmtODotf788-Q',
+        # "DOYOUYOGA.com": 'UCEdFmnwp53XmtODotf788-Q',
         # "Yoga_By_Candace": 'UCI9s9nFu2m3K2CvhO2QVfTg',
         'blogilates': 'UCIJwWYOfsCfz6PjxbONYXSg',
         'Breathe and Flow' : 'UCbfPq-uRqonJQli41muSLeQ',
@@ -78,44 +78,44 @@ category_dict = {
 
     }
     ,
-    "History": {
-        "History_Channel": 'UC9MAhZQQd9egwWCxrwSIsJQ', #cannot fetch
+    # "History": {
+        # "History_Channel": 'UC9MAhZQQd9egwWCxrwSIsJQ', #cannot fetch
         # "Alternate_History_Hub": 'UClfEht64_NrzHf8Y0slKEjw',
         # "Simple_History": 'UC510QYlOlKNyhy_zdQxnGYw',
-        "Oversimplified": 'UCNIuvl7V8zACPpTmmNIqP2A', #cannot fetch
+        # "Oversimplified": 'UCNIuvl7V8zACPpTmmNIqP2A', #cannot fetch
         # "History_Buffs": 'UCggHoXaj8BQHIiPmOxezeWA',
         # "Timeline-World_History_Documentaries": 'UC88lvyJe7aHZmcvzvubDFRg',
         # "Overly_Sarcastic_Productions": 'UCodbH5mUeF-m_BsNueRDjcw',
         # "Historia_Civillis": 'UCv_vLHiWVBh_FR9vbeuiY-A',
         # "BazBattles": 'UCx-dJoP9hFCBloY9qodykvw',
         # "Feature_History": 'UCHdluULl5c7bilx1x1TGzJQ',
-        'Weird History' : 'UCc-N24Y5OA0gqbjBwe1ttfA',
-        'Tasting History with Max Miller': 'UCsaGKqPZnGp_7N80hcHySGQ',
-        'The Great War': 'UCUcyEsEjhPEDf69RRVhRh4A',
-        'The History Guy': 'UC4sEmXUuWIFlxRIFBRV6VXQ',
-        'TIKhistory' : 'UCfZz8F37oSJ2rtcEJHM2kCg'
+        # 'Weird History' : 'UCc-N24Y5OA0gqbjBwe1ttfA',
+        # 'Tasting History with Max Miller': 'UCsaGKqPZnGp_7N80hcHySGQ',
+        # 'The Great War': 'UCUcyEsEjhPEDf69RRVhRh4A',
+        # 'The History Guy': 'UC4sEmXUuWIFlxRIFBRV6VXQ',
+        # 'TIKhistory' : 'UCfZz8F37oSJ2rtcEJHM2kCg'
 
-    }
-    ,
-    "Science": {
+    # }
+    # ,
+    # "Science": {
         # "AsapSCIENCE": 'UCC552Sd-3nyi_tk2BudLUzA',
         # "Kurzgesagt": 'UCsXVk37bltHxD1rDPwtNM8Q',
         # "SmarterEveryDay": 'UC6107grRI4m0o2-emgoDnAA',
         # "minutephysics": 'UCUHW94eEFW7hkUMVaZz4eDg',
         # "TheBackYardScientist": 'UC06E4Y_-ybJgBUMtXx8uNNw',
-        "charlieissocoollike": 'UCmQXOAse-VnzuXHebX5I77g',
-        "Beyond Science": 'UCxo8ooAqXiObjuaIy10ud0A',
+        # "charlieissocoollike": 'UCmQXOAse-VnzuXHebX5I77g',
+        # "Beyond Science": 'UCxo8ooAqXiObjuaIy10ud0A',
         # "Science Channel": 'UCvJiYiBUbw4tmpRSZT2r1Hw',
         # "IncredibleScience": 'UCJcycnanWtyOGcz34jUlYZA',
         # "Science Insider": 'UC9uD-W5zQHQuAVT2GdcLCvg',
-        '3Blue1Brown' : 'UCYO_jab_esuFRV4b17AJtAw',
-        'Physics Videos by Eugene Khutoryansky': 'UCJ0yBou72Lz9fqeMXh9mkog',
-        'acapellascience' : 'UCTev4RNBiu6lqtx8z1e87fQ',
-        'Lectures by Walter Lewin' : 'UCiEHVhv0SBMpP75JbzJShqw',
-        'The Science Asylum': 'UCXgNowiGxwwnLeQ7DXTwXPg'
-    }
-    ,
-    "News": {
+        # '3Blue1Brown' : 'UCYO_jab_esuFRV4b17AJtAw',
+        # 'Physics Videos by Eugene Khutoryansky': 'UCJ0yBou72Lz9fqeMXh9mkog',
+        # 'acapellascience' : 'UCTev4RNBiu6lqtx8z1e87fQ',
+        # 'Lectures by Walter Lewin' : 'UCiEHVhv0SBMpP75JbzJShqw',
+        # 'The Science Asylum': 'UCXgNowiGxwwnLeQ7DXTwXPg'
+    # }
+    # ,
+    # "News": {
         # "Vice": 'UCn8zNIfYAQNdrFRrr8oibKw',
         # "IndiaTV": 'UCttspZesZIDEwwpVIgoZtWQ',
         # "Barcroft_TV": 'UCfwx98Wty7LhdlkxL5PZyLA',
@@ -126,12 +126,12 @@ category_dict = {
         # "ABC_News": 'UCBi2mrWuNuyYy4gbM6fU18Q',
         # "The_Young_Turks": 'UC1yBKRuGpC1tSM73A0ZjYjQ',
         # "BBC_News": 'UC16niRr50-MSBwiO3YDb3RA',
-        'Al Jazeera English': 'UCNye-wNBqNL5ZzHSJj3l8Bg',
-        'Fox News': 'UCXIJgqnII2ZOINSWNOGFThA',
-        "CBS News" : 'UC8p1vwvWtl6T73JiExfWs1g',
-        'US Military News' : 'UC0bpxzOXueQV7rRPomDiX8A'
-    }
-    ,
+        # 'Al Jazeera English': 'UCNye-wNBqNL5ZzHSJj3l8Bg',
+        # 'Fox News': 'UCXIJgqnII2ZOINSWNOGFThA',
+        # "CBS News" : 'UC8p1vwvWtl6T73JiExfWs1g',
+        # 'US Military News' : 'UC0bpxzOXueQV7rRPomDiX8A'
+    # }
+    # ,
     # "Music": {
         # "Ed Sheeran": 'UC0C-w0YjGpqDXGB8IHb662A',
         # "Eminem": 'UCfM3zsQsOnfWNUppiycmBuw',
