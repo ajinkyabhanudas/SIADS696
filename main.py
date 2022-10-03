@@ -70,11 +70,11 @@ category_dict = {
         # "Ekhart_Yoga": 'UCFYsO0t3zj0eJ_NcOlowTSA',
         # "DOYOUYOGA.com": 'UCEdFmnwp53XmtODotf788-Q',
         # "Yoga_By_Candace": 'UCI9s9nFu2m3K2CvhO2QVfTg',
-        'blogilates': 'UCIJwWYOfsCfz6PjxbONYXSg',
-        'Breathe and Flow' : 'UCbfPq-uRqonJQli41muSLeQ',
-        'Move with Nicole' : 'UCEbbyBuyQiHpKiOMj9GFhVw',
-        'eFit30' : 'UCFYbLvz0iXSzQjxr5UD9CxQ',
-        'The Live Fit Girl': 'UCWkpYNGPaECjwXSy43c1egg'
+        # 'blogilates': 'UCIJwWYOfsCfz6PjxbONYXSg',
+        # 'Breathe and Flow' : 'UCbfPq-uRqonJQli41muSLeQ',
+        # 'Move with Nicole' : 'UCEbbyBuyQiHpKiOMj9GFhVw',
+        # 'eFit30' : 'UCFYbLvz0iXSzQjxr5UD9CxQ',
+        # 'The Live Fit Girl': 'UCWkpYNGPaECjwXSy43c1egg'
 
     }
     ,
