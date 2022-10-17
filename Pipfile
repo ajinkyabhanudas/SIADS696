@@ -4,7 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
+gensim = "==4.1.2"
+sklearn = "==0.0"
+numpy = "==1.23.4"
+nltk = "==3.7"
+matplotlib = "*"
+plotly = "*"
+seaborn = "*"
 
 [dev-packages]
 pylint = "==2.13.2"

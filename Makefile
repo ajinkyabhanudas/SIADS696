@@ -14,3 +14,6 @@ py-env:
 get-data:
 	python main.py ${API_KEY}
 
+.PHONY: train
+train:
+	python train.py
