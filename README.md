@@ -6,16 +6,21 @@
 - `git add .` adds all in all the changes
 - `git push` to push the code into the `dev` branch repository
 
+## How to ensure you have all the dependencies?
+- run `make py-env`
+
 ## How to download the data?
 - Open a console/terminal window and navigate to the `SIADS696` directory
 - run `export API_KEY=<PUT_YOUR_API_KEY_HERE>` 
 - run `make get-data`
 - Navigate to the `main.py` python script and comment out the channels you've successfully extracted data from to avoid a duplicate download.
 
-### Streamlit boilerplate display can be accessed by running the following command:
+## How to train the best selected model?
+- run `make train`
+
+### Finally, the streamlit app can be accessed with:
 - make sure to have Pillow, protobuf, and streamlit installed or else this will error out. refer Pipfile for versions if you're running it outside the desired environment.
-- `streamlit run https://gist.githubusercontent.com/ajinkyabhanudas/5bf6214cdec46d68ba7dd706ce57ee0d/raw/288242fa80f8ebf91e173089e9dcb17619d564ff/app.py
-` 
+- `streamlit run app.py` 
 
 # SIADS696
 ## Youtube Video Title Analysis and Views Prediction
@@ -40,14 +45,13 @@ Based on our engineered feature set, we will apply supervised learning methods t
 - Baseline model 1: Linear Regression. It’s great for underlying representations that are linear, simple and are interpretable.
 - Baseline model 2: Tree-based Regressors: Interpretable, might be a better fit if the problem is non-linear.
 - Experimental models:
-  - KNN-regression (lazy learner, but the ability to handle non-linear data could show promise)
-  - SVM based regression (if the engineered data has a very large feature set)
-  - Basic Neural Networks (hypothesizing that remembering long range dependencies within the text won’t help improve the predictions)
+  - Linear-regressors
+  - Andvanced Tree based regressors
+  - Boosted regression trees
 #### Evaluation and Visualization
 - Evaluation:
 MSE/RMSE/MAE for model evaluation.
 R-squared for the quality of fit.
-LIME to help with interpretability in case we see a considerable performance improvement with  black box models.
 - Visualization:
 Word clouds.
 Line charts, Bar charts for word density and spread-based analysis.
