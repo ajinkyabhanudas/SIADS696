@@ -20,7 +20,10 @@
 
 ### Finally, the streamlit app can be accessed with:
 - make sure to have Pillow, protobuf, and streamlit installed or else this will error out. refer Pipfile for versions if you're running it outside the desired environment.
-- `streamlit run app.py` 
+- `streamlit run app.py` or `make run-app`
+
+## To run the training and app in one-shot:
+- `make all` 
 
 # SIADS696
 ## Youtube Video Title Analysis and Views Prediction
