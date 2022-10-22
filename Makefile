@@ -17,3 +17,14 @@ get-data:
 .PHONY: train
 train:
 	python train.py
+
+.PHONY: run-app
+run-app:
+	streamlit run app.py
+
+.PHONY: all
+all:
+	make train
+	make run-app
+
+
