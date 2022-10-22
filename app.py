@@ -4,37 +4,30 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 import datetime
-import enum
 import glob
 import json
-import os
 import re
 from itertools import groupby
 
-from gensim.models import Word2Vec
 import nltk
 from nltk.corpus import stopwords
 import numpy as np
 import pandas as pd
+import pickle
 
 import warnings
-
 warnings.simplefilter(action='ignore')
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.decomposition import PCA
-import pickle
+from sklearn.preprocessing import FunctionTransformer, PolynomialFeatures, OneHotEncoder
 
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import FunctionTransformer
+from sklearn.compose import ColumnTransformer
 
-from sklearn.preprocessing import PolynomialFeatures
-
+from sklearn.ensemble import RandomForestRegressor, HistGradientBoostingRegressor
 
 import gensim.downloader
-
 
 def duration_split(duration):
     try:
@@ -115,24 +108,10 @@ def text_prep(val):
     return word_list
 
 
-def create_target(df):
-    df["publishedAt"] = pd.to_datetime(df.publishedAt)
-    df['publishedDayDelta'] = (datetime.datetime.now() - df.publishedAt.dt.tz_localize(None)).dt.days
-    df["viewCount"] = df.viewCount.astype(float)
-    df["avg_viewCount"] = df["viewCount"] / df['publishedDayDelta']
-    df['topicLabel'] = df.topicLabel.str.lower()
-    df['score'] = df["avg_viewCount"] / df.topicLabel.map(dict(df.groupby('topicLabel').avg_viewCount.agg('median')))
-
-    return df['score']
-
-
-def create_train_dataset(df, featureset=None, d=4):
+def create_train_dataset(df, featureset=None, d=5):
     df["publishedAt"] = pd.to_datetime(df.publishedAt)
     df['publishedDayNum'] = df.publishedAt.apply(lambda x: x.timetuple().tm_yday)
-    if df['duration'].dtype == 'O':
-        df['duration_secs'] = df.duration.apply(duration_2_secs)
-    else:
-        df['duration_secs'] = df.duration.astype(int)
+    df['duration_secs'] = df.duration.astype(int)
     df['topicLabel'] = df.topicLabel.str.lower()
     df['title'] = df.title.apply(text_prep)
     df['len_title'] = df.title.apply(lambda x: len(x))
@@ -144,13 +123,8 @@ def create_train_dataset(df, featureset=None, d=4):
 
     train_X = pd.concat(
         [df[['publishedDayNum', 'log_duration_secs', 'len_title']], titles, df.definition, df.topicLabel],
-        axis=1).values
-    poly = PolynomialFeatures(d)
-    trainX3 = poly.fit_transform(train_X[:, :3])
-    trainX62 = train_X[:, 3:]
-
-    x_poly_ip = np.concatenate((trainX62, trainX3), axis=1)
-    return x_poly_ip
+        axis=1)
+    return train_X
 
 
 def creator_details():
@@ -235,4 +209,4 @@ if __name__ == '__main__':
             st.plotly_chart(fig, use_container_width=True)
 
     else:
-        st.write("Coming soon....")
+        st.write("Phase 2 Coming soon....")

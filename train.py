@@ -1,44 +1,28 @@
 import datetime
-import enum
 import glob
 import json
-import os
 import re
 from itertools import groupby
 
-from gensim.models import Word2Vec
-import matplotlib.pyplot as plt
 import nltk
 from nltk.corpus import stopwords
 import numpy as np
 import pandas as pd
+import pickle
 
 import warnings
-
 warnings.simplefilter(action='ignore')
 
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler
-from sklearn.preprocessing import OneHotEncoder
-from sklearn.decomposition import PCA
-import pickle
+from sklearn.preprocessing import FunctionTransformer, PolynomialFeatures, OneHotEncoder
 
 from sklearn.pipeline import Pipeline
-from sklearn.preprocessing import FunctionTransformer
+from sklearn.compose import ColumnTransformer
 
-from sklearn.linear_model import LinearRegression, Ridge, Lasso, ElasticNet
-from sklearn.dummy import DummyRegressor
-from sklearn.svm import SVR
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.preprocessing import PolynomialFeatures
-
-from sklearn import metrics
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import cross_validate
-from sklearn.model_selection import GridSearchCV
+from sklearn.ensemble import RandomForestRegressor, HistGradientBoostingRegressor
 
 import gensim.downloader
-
 glove_wv = gensim.downloader.load('glove-wiki-gigaword-50')
 
 nltk.download('punkt')
@@ -108,7 +92,7 @@ def duration_2_secs(duration, duration_split=duration_split):
             if i == 5 and not val.isalpha():
                 temp += float(val)
 
-    return (temp)
+    return temp
 
 
 def topic_extract(links_list):
@@ -120,6 +104,15 @@ def topic_extract(links_list):
         return (topics_list)
     except:
         pass
+
+def outlier_thresh(df, up=True):
+  q1, q3 = np.percentile(df,[25,75])
+  iqr = q3-q1
+  if up:
+    res = q3+1.5*iqr
+  else:
+    res = q1-1.5*iqr
+  return res
 
 
 def gen_word_vec(df_text_list, wordvec):
@@ -160,41 +153,53 @@ def text_prep(val):
 
 
 def create_target(df):
+
+  df["publishedAt"] = pd.to_datetime(df.publishedAt)
+  df['publishedDayDelta'] = (datetime.datetime.now() - df.publishedAt.dt.tz_localize(None)).dt.days
+  df["viewCount"] = df.viewCount.astype(float)
+  df["avg_viewCount"] = df["viewCount"]/df['publishedDayDelta']
+  df['topicLabel'] = df.topicLabel.str.lower()
+  df['score'] = df["avg_viewCount"]/df.topicLabel.map(dict(df.groupby('topicLabel').avg_viewCount.agg('median')))
+  return df['score']
+
+
+def create_train_dataset(df):
     df["publishedAt"] = pd.to_datetime(df.publishedAt)
     df['publishedDayDelta'] = (datetime.datetime.now() - df.publishedAt.dt.tz_localize(None)).dt.days
+    df['publishedDayNum'] = df.publishedAt.apply(lambda x: x.timetuple().tm_yday)
     df["viewCount"] = df.viewCount.astype(float)
     df["avg_viewCount"] = df["viewCount"] / df['publishedDayDelta']
     df['topicLabel'] = df.topicLabel.str.lower()
     df['score'] = df["avg_viewCount"] / df.topicLabel.map(dict(df.groupby('topicLabel').avg_viewCount.agg('median')))
-
-    return df['score']
-
-
-def create_train_dataset(df, featureset=None, d=4):
-    df["publishedAt"] = pd.to_datetime(df.publishedAt)
-    df['publishedDayNum'] = df.publishedAt.apply(lambda x: x.timetuple().tm_yday)
     if df['duration'].dtype == 'O':
         df['duration_secs'] = df.duration.apply(duration_2_secs)
     else:
         df['duration_secs'] = df.duration.astype(int)
     df['topicLabel'] = df.topicLabel.str.lower()
     df['title'] = df.title.apply(text_prep)
+    # df['description'] = df.description.apply(text_prep)
     df['len_title'] = df.title.apply(lambda x: len(x))
     df['log_duration_secs'] = np.log(df.duration_secs + 1)
     df.loc[df['topicLabel'] == 'fitness_workout', 'topicLabel'] = 'fitness'
 
     df['vec_title'] = df.title.apply(gen_word_vec, wordvec=glove_wv)
     titles = df.vec_title.apply(pd.Series).rename(columns={i - 1: "title_" + str(i) for i in range(1, 51)})
+    high = dict(df.dropna().groupby('topicLabel').score.apply(outlier_thresh, up=True))
+    low = dict(df.dropna().groupby('topicLabel').score.apply(outlier_thresh, up=False))
+    df['high'] = df.topicLabel.map(high)
+    df['low'] = df.topicLabel.map(low)
+    df = df[df.score <= df.high]
+    df = df[df.score >= df.low]
+
+    df['vec_title'] = df.title.apply(gen_word_vec, wordvec=glove_wv)
+
+    titles = df.vec_title.apply(pd.Series).rename(columns={i - 1: "title_" + str(i) for i in range(1, 51)})
 
     train_X = pd.concat(
         [df[['publishedDayNum', 'log_duration_secs', 'len_title']], titles, df.definition, df.topicLabel],
-        axis=1).values
-    poly = PolynomialFeatures(d)
-    trainX3 = poly.fit_transform(train_X[:, :3])
-    trainX62 = train_X[:, 3:]
+        axis=1)
 
-    x_poly_ip = np.concatenate((trainX62, trainX3), axis=1)
-    return x_poly_ip
+    return train_X
 
 
 def cat_stats(df):
@@ -210,23 +215,42 @@ def cat_stats(df):
 
 
 cat_stats(raw_df).to_csv("cat_stats.csv")
-data_train, data_test = train_test_split(raw_df, test_size=0.20, random_state=42)
 
-data_train = data_train.dropna()
-data_test = data_test.dropna()
+data_train, data_test = train_test_split(raw_df, test_size=0.2)
 
-target = create_target(data_train)
-test_target = create_target(data_test)
+train_data = create_train_dataset(data_train)
+test_data = create_train_dataset(data_test)
+
+train_X = train_data
+train_y = create_target(raw_df.iloc[train_data.index])
+
+test_X = test_data
+test_y = create_target(raw_df.iloc[test_data.index])
+
+train_X.to_csv("train_X.csv", index=False)
+train_y.to_csv("train_y.csv", index=False)
+
+test_X.to_csv("test_X.csv", index=False)
+test_y.to_csv("test_y.csv", index=False)
+
 
 print("Data Preprocessing Started...")
-lr_pipeline = Pipeline([('create_dataset', FunctionTransformer(create_train_dataset)),
-          ('ohe', OneHotEncoder(handle_unknown='ignore')),
-          ('scale',MaxAbsScaler()),
-          ('lr', LinearRegression())])
+ct = ColumnTransformer(
+    [("ohe", OneHotEncoder(handle_unknown='ignore'), ["definition", "topicLabel"]),
+    ("poly", PolynomialFeatures(5),["publishedDayNum",	"log_duration_secs", "len_title"]),
+    ], remainder="passthrough")
+
+pipeline = Pipeline([('create_dataset', FunctionTransformer(create_train_dataset)),
+                     ('column_transformer', ct),
+                     ('scale',MinMaxScaler()),
+                     ('hgbr', HistGradientBoostingRegressor(l2_regularization=0.2,
+                                                          max_depth=10,
+                                                          max_leaf_nodes=50,
+                                                          n_iter_no_change=15))])
 
 print("Model Training Started...")
-lr_pipeline.fit(data_train, target)
+pipeline.fit(data_train, train_y)
 
 filename = 'model.sav'
-pickle.dump(lr_pipeline, open(filename, 'wb'))
+pickle.dump(pipeline, open(filename, 'wb'))
 print("Model Has Been Saved...")
