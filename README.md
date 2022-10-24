@@ -49,7 +49,7 @@ Based on our engineered feature set, we will apply supervised learning methods t
 - Baseline model 2: Tree-based Regressors: Interpretable, might be a better fit if the problem is non-linear.
 - Experimental models:
   - Linear-regressors
-  - Andvanced Tree based regressors
+  - Advanced Tree based regressors
   - Boosted regression trees
 #### Evaluation and Visualization
 - Evaluation:
